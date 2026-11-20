@@ -8,7 +8,7 @@ from aqt import mw
 from aqt.qt import *
 from aqt.utils import showInfo, tooltip, askUser
 from anki.hooks import addHook
-
+#oi?
 try:
     from aqt.theme import theme_manager
 except Exception:  # very old Anki
