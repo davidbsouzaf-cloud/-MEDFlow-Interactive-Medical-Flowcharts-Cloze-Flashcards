@@ -1,333 +1,288 @@
 # MEDFlow – Interactive Medical Flowcharts & Cloze Flashcards
 
-> **Think Visually. Learn Actively. Remember More.**
+**Transform complex medical concepts into interactive visual learning experiences.**
 
-MEDFlow is an Anki add-on that transforms complex medical concepts into interactive flowcharts and Cloze flashcards.
+MEDFlow is an Anki add-on that allows you to create interactive medical flowcharts and transform them into Cloze flashcards. It combines visual organization, clinical reasoning, and Anki's spaced repetition system to make studying more active, structured, and engaging.
 
-Build diagnostic algorithms, organize clinical reasoning, connect visual elements, and turn your diagrams into active-recall cards — all directly inside Anki.
+Inspired by the ZeestMedical project, MEDFlow was independently developed to provide an integrated flowchart editor directly within Anki.
 
-Inspired by **ZeestMedical**, MEDFlow was independently developed to provide an integrated and enhanced flowchart creation and review experience.
+## MAIN FEATURES
 
----
+### 1. Interactive Flowchart Editor
 
-## ✨ Features at a Glance
+Create medical algorithms using three types of elements:
 
-- 🎨 **Interactive Flowchart Editor** – Build diagrams using Steps, Decisions, and Information boxes.
-- 🔗 **Clinical Connections** – Create and customize arrows, labels, and decision pathways.
-- 🖼️ **Image Nodes** – Insert, resize, connect, and display images directly inside flowcharts.
-- 🃏 **Cloze Generation** – Transform flowchart elements into individual Anki Cloze cards.
-- 🎯 **Focus Flow** – Review selected branches progressively, one Cloze at a time.
-- 📱 **Mobile Optimization** – Improved visualization and interaction on smaller screens.
-- 💡 **Box Hints** – Reveal contextual hints without immediately exposing answers.
-- 📝 **Extra Content** – Attach explanations, notes, and complementary images.
-- 📚 **Templates** – Save, reuse, and organize flowchart models.
-- ↩️ **Undo / Redo** – Maintain up to 200 editing states.
-- 📤 **Import / Export** – Save and share diagrams using JSON files.
-- 🌙 **Dark Mode** – Compatible with Anki's dark theme.
+- **Step / Box:** Represents a procedure, clinical finding, stage, or piece of information.
+- **Decision:** Represents a clinical decision or branching point, displayed as a diamond.
+- **Information:** Highlights additional explanations and important details.
 
----
+Move, resize, and organize elements freely to create simple or complex clinical pathways.
 
-## 📸 Screenshots & Demonstrations
+![MEDFlow Flowchart Editor](https://raw.githubusercontent.com/davidbsouzaf-cloud/-MEDFlow-Interactive-Medical-Flowcharts-Cloze-Flashcards/6c0c49f803104b610d165d8c676259ffe73aba8a/assets/Imagen%20na%20parte%20da%20frente.gif)
 
-<!-- Add your screenshots and GIFs below -->
+![MEDFlow Node Selection](https://raw.githubusercontent.com/davidbsouzaf-cloud/-MEDFlow-Interactive-Medical-Flowcharts-Cloze-Flashcards/6c0c49f803104b610d165d8c676259ffe73aba8a/assets/sele%C3%A7%C3%A3o%20de%20n%C3%B3s%2Bmudan%C3%A7a.gif)
 
-### Flowchart Editor
+Additional features:
 
-<!-- 📷 INSERT EDITOR SCREENSHOT OR GIF -->
-
-### Cloze Flashcard Review
-
-<!-- 📷 INSERT FRONT/BACK REVIEW GIF -->
-
-### Image Nodes
-
-<!-- 📷 INSERT IMAGE NODES DEMONSTRATION -->
-
-### Focus Flow
-
-<!-- 📷 INSERT FOCUS FLOW DEMONSTRATION -->
-
-### Mobile Review
-
-<!-- 📷 INSERT MOBILE REVIEW SCREENSHOT -->
-
----
-
-## 🧠 How MEDFlow Works
-
-MEDFlow combines visual diagram creation with Anki's spaced repetition system.
-
-1. Create a flowchart using the integrated editor.
-2. Add clinical steps, decisions, and information.
-3. Connect elements to build diagnostic or therapeutic pathways.
-4. Assign Cloze numbers to the elements you want to memorize.
-5. Save the diagram and generate your Anki cards.
-6. Review your cards using the complete flowchart or Focus Flow.
-
-Each Cloze number generates a corresponding card. Elements sharing the same number are tested together.
-
----
-
-## 🎨 Interactive Flowchart Editor
-
-Create and organize medical algorithms using three element types:
-
-| Element | Purpose |
-|---|---|
-| Step / Box | Clinical stages, procedures, findings, and actions |
-| Decision | Clinical decisions and branching points |
-| Information | Additional explanations and important details |
-
-The editor includes:
-
-- Free positioning and resizing.
 - Automatic alignment guides.
+- Customizable colors, borders, and box appearance.
 - Multiple selection and simultaneous editing.
-- Customizable colors, borders, and typography.
-- Individual formatting for boxes and connections.
-- XMind-inspired keyboard shortcuts.
-- Undo and redo history.
+- Change the type of multiple selected boxes at once.
+- Undo and redo functionality.
+- XMind-inspired keyboard shortcuts for faster diagram creation.
 
-### Connections
+### 2. Connections & Clinical Pathways
 
-- Draggable blue connection points.
-- Parent-child relationships.
-- Reconnectable arrows.
-- Customizable arrow styles.
-- Editable labels such as Yes, No, Positive, and Negative.
-- Link Mode for creating connections.
+Build relationships between elements using interactive connections.
 
----
+- Connect elements using draggable blue connection points.
+- Create relationships between parent and child elements.
+- Reconnect arrows by dragging their endpoints.
+- Add labels such as Yes, No, Positive, Negative, or clinical criteria.
+- Build diagnostic and therapeutic decision trees.
+- Customize arrow types and branching structures.
 
-## 🖼️ Image Nodes
+![MEDFlow Arrow Customization](https://raw.githubusercontent.com/davidbsouzaf-cloud/-MEDFlow-Interactive-Medical-Flowcharts-Cloze-Flashcards/6c0c49f803104b610d165d8c676259ffe73aba8a/assets/MUDAR%20SETAS.gif)
 
-Image Nodes allow you to insert images directly into the flowchart as independent visual elements.
+![MEDFlow Arrow Branching](https://raw.githubusercontent.com/davidbsouzaf-cloud/-MEDFlow-Interactive-Medical-Flowcharts-Cloze-Flashcards/6c0c49f803104b610d165d8c676259ffe73aba8a/assets/bifurca%C3%A7%C3%A3o%20de%20setas.gif)
 
-Unlike images attached through Extra, these images become part of the diagram itself.
+### 3. Image Nodes
+
+Insert images directly into your flowcharts as independent visual elements.
+
+Unlike images added to the Extra field, Image Nodes become part of the flowchart itself.
+
+- Insert images directly into the editing area.
+- Paste copied images into the editor.
+- Freely resize and reposition images.
+- Connect images to other elements using arrows.
+- Add captions to images.
+- Display images directly in generated Anki cards.
+- Captions are automatically hidden when their corresponding images are hidden by Cloze.
+
+Ideal for anatomy, histology, radiology, pathology, dermatology, and other image-dependent medical subjects.
+
+### 4. Cloze Flashcard Generation
+
+Assign individual Cloze numbers to flowchart elements.
+
+Elements sharing the same Cloze number belong to the same Anki card, while different numbers generate separate cards.
 
 Features:
 
-- Paste images directly into the editor.
-- Resize and reposition images freely.
-- Connect images to other elements.
-- Add image captions.
-- Display images in generated Anki cards.
-- Automatically hide captions when their corresponding images are hidden by Cloze.
+- Assign specific Cloze numbers or automatically increment numbering.
+- Display the complete flowchart during review.
+- Visually highlight the element being tested.
+- Reveal hidden elements by clicking them.
+- Review the complete flowchart or use Focus Flow to study specific branches.
 
-Useful for anatomy, histology, radiology, pathology, dermatology, and other visually oriented subjects.
+Use **Save and Generate Cards** to synchronize your flowchart with Anki and generate the corresponding Cloze cards.
 
----
+### 5. Focus Flow – Progressive Branch-Based Review
 
-## 🃏 Cloze Flashcards
+Focus Flow provides a different way to review complex flowcharts by allowing you to study selected branches progressively.
 
-Assign Cloze numbers to individual flowchart elements.
+Instead of displaying the entire algorithm at once, you can define a specific pathway and review its elements step by step.
 
-For example:
+![MEDFlow Focus Flow – Parent Node](https://raw.githubusercontent.com/davidbsouzaf-cloud/-MEDFlow-Interactive-Medical-Flowcharts-Cloze-Flashcards/6c0c49f803104b610d165d8c676259ffe73aba8a/assets/modo%20focus%20modo%20caixa%20pai.gif)
 
-- Element 1 → c1
-- Element 2 → c2
-- Element 3 → c3
+![MEDFlow Focus Flow – Single Selection](https://raw.githubusercontent.com/davidbsouzaf-cloud/-MEDFlow-Interactive-Medical-Flowcharts-Cloze-Flashcards/6c0c49f803104b610d165d8c676259ffe73aba8a/assets/focus%20sele%C3%A7%C3%A3o%20unica.gif)
 
-Elements with the same Cloze number are tested together.
+How it works:
+
+- Select the boxes belonging to a branch using Shift + Click or Shift + Drag.
+- Alternatively, select only the first box to automatically include its connected downstream elements.
+- Activate Focus using the target button or `Ctrl + Shift + F`.
+- Selected elements receive a visual Focus indicator.
+- During review, cards progressively follow the selected pathway, presenting one Cloze at a time.
 
 During review:
 
-- The complete flowchart remains available.
-- The active Cloze element receives visual emphasis.
-- Hidden elements can be revealed by clicking.
-- The diagram can be reviewed in its entirety or through Focus Flow.
-
-Use **Save and Generate Cards** to save your diagram and generate the corresponding cards.
-
----
-
-## 🎯 Focus Flow
-
-Focus Flow allows you to isolate and progressively review specific branches of a flowchart.
-
-Instead of reviewing the entire algorithm at once, you can select a pathway and follow its elements step by step.
-
-### Setup
-
-1. Select the boxes belonging to a branch using Shift + Click or Shift + Drag.
-2. Alternatively, select only the starting box to include its connected downstream elements automatically.
-3. Activate Focus using the target button or `Ctrl + Shift + F`.
-4. Selected elements receive a visual Focus indicator.
-
-### During Review
-
-- The selected branch starts from its initial element.
-- Relevant elements are presented progressively.
-- Arrows guide the pathway.
+- The branch starts from its initial element.
+- Only the relevant pathway is displayed.
+- Arrows guide progression to the next step.
 - Unrelated branches remain hidden.
 - Elements without Cloze remain visible alongside related elements.
-- Cards without Focus settings continue displaying the complete diagram.
+- Cards without Focus settings continue displaying the complete flowchart.
 
-You can switch between the focused branch and the complete flowchart using the eye and target controls.
+You can switch between the selected branch and the complete flowchart using the eye and target controls.
 
----
+### 6. Improved Mobile Review
 
-## 📱 Mobile Review
+MEDFlow includes improvements designed to make complex flowcharts more readable on smaller screens, including AnkiMobile.
 
-MEDFlow includes improvements for reviewing complex flowcharts on smaller screens.
-
-- Automatic screen adaptation.
+- Automatic adaptation to screen dimensions.
 - Prioritization of the active Cloze element.
-- Improved zoom and centering.
-- Full-flowchart viewing when needed.
+- Improved zoom and centering of relevant elements.
+- Option to fit the complete flowchart when necessary.
 - Adaptation to screen resizing and orientation changes.
-- Touch-friendly controls.
+- Touch-friendly review controls.
 
-Designed to improve readability on mobile Anki clients, including AnkiMobile.
+### 7. Box Hints
 
----
+Add individual hints to flowchart elements without directly revealing their answers.
 
-## 💡 Box Hints & 📝 Extra Content
+![MEDFlow Box Hints](https://raw.githubusercontent.com/davidbsouzaf-cloud/-MEDFlow-Interactive-Medical-Flowcharts-Cloze-Flashcards/6c0c49f803104b610d165d8c676259ffe73aba8a/assets/dicas.gif)
 
-### Box Hints
-
-Add contextual hints to individual boxes.
-
-- Hints appear in green above elements in the editor.
-- A **+** button appears during review when the corresponding element is hidden.
-- Click to reveal the hint in place of the hidden content.
+- Add hints using the corresponding editor tool.
+- Hints appear in green above boxes in the editor.
+- During review, a **+** button appears when the corresponding box is hidden by Cloze.
+- Click the button to reveal the hint in place of the hidden content.
 - Click again to hide it.
 
-### Extra
+Ideal for clues, reminders, and information that supports active recall.
 
-Attach complementary content to individual elements.
+### 8. Extra – Additional Content
 
-- Clinical explanations.
-- Detailed notes and observations.
-- Additional images.
-- Supporting information displayed on the back of the corresponding Cloze card.
+Attach explanations and complementary images to individual elements.
 
----
+- Add clinical explanations and detailed notes.
+- Include observations and additional information.
+- Attach images to complementary content.
+- Display the corresponding Extra content during card review.
 
-## 📚 Templates
+Extra content appears on the back of the corresponding Cloze card.
 
-Templates allow you to reuse frequently needed flowchart structures.
+### 9. Templates – Ready-to-Use Flowchart Models
 
-- Use predefined templates.
-- Save custom templates.
-- Save selected boxes or entire diagrams.
-- Reuse templates in other notes.
-- Restore original templates.
-- Keep custom templates stored separately from editor files to help preserve them during updates.
+Save time by starting with predefined flowchart structures instead of building every diagram from scratch.
 
----
+![MEDFlow Template Creation](https://raw.githubusercontent.com/davidbsouzaf-cloud/-MEDFlow-Interactive-Medical-Flowcharts-Cloze-Flashcards/6c0c49f803104b610d165d8c676259ffe73aba8a/assets/criar%20templates.gif)
 
-## 🧭 Navigation & Customization
+- Use predefined templates for medical subjects and clinical algorithms.
+- Save your own customized templates.
+- Save selected boxes or entire flowcharts as templates.
+- Reuse templates across different notes.
+- Restore the original templates when necessary.
+- Custom templates are stored separately from editor files, helping preserve them during add-on updates.
 
-- Zoom in and out.
-- Fit the complete flowchart to the workspace.
-- Pan by dragging the background.
+### 10. Undo & Redo
+
+Edit with confidence using the editor's action history.
+
+- `Ctrl + Z` – Undo.
+- `Ctrl + Y` or `Ctrl + Shift + Z` – Redo.
+- Restore previous box and arrow arrangements.
+- Maintain up to 200 editing states.
+
+### 11. Text Formatting & Visual Customization
+
+Customize content and appearance to improve organization and readability.
+
+- Bold, italic, and underline.
+- Different font sizes and font families.
+- Bulleted and numbered lists.
+- Customizable box colors and borders.
+- Different arrow styles and colors.
+- Individual formatting for elements and connections.
+- Clear formatting options.
+
+### 12. Import & Export
+
+- Export flowcharts as JSON files.
+- Import previously exported diagrams.
+- Back up, reuse, and modify existing algorithms.
+- Share flowchart structures with other users.
+
+### 13. Navigation & Workspace
+
+- Zoom in, zoom out, and fit the entire flowchart to the workspace.
+- Pan across the canvas by dragging the background.
 - Zoom around the cursor using Ctrl + Mouse Wheel.
-- Multiple selection.
-- Automatic alignment guides.
-- Collapsible sidebar.
-- Customizable box and arrow appearance.
-- Rich-text formatting.
+- Automatically align elements using visual guides.
+- Select multiple elements using Shift + Click or Shift + Drag.
+- Collapse the sidebar for a cleaner workspace.
 - Dark mode compatibility.
-- Preserve zoom and canvas position between card sides and cards during the same review session.
+- Preserve zoom level and canvas position between the front and back of cards and between cards during the same review session.
 
----
+### 14. Privacy & Data Storage
 
-## 📤 Import, Export & Storage
+- No data is transmitted to external servers. Everything is stored locally on your computer.
+- Flowcharts are saved as JSON directly inside Anki notes, making backups, exports, and deck sharing easier.
+- Images are stored in Anki's media folder and automatically referenced, allowing them to be included in deck exports and shared decks.
 
-MEDFlow supports JSON import and export, allowing you to back up, reuse, modify, and share flowchart structures.
+## HOW TO USE MEDFLOW
 
-### Privacy
+1. **Install and open the editor:** Install the add-on and restart Anki. The MedFlow note type is created automatically. Create a new note using this type and click **Alg** to open the editor.
+2. **Build your flowchart:** Add Step, Decision, and Information elements. Double-click an element to edit its text.
+3. **Connect elements:** Drag a blue connection point from one element to another, or use Link Mode.
+4. **Assign Cloze numbers:** Select an element and enter a number in the CLOZE field. Click Apply or use +1 to increment the number.
+5. **Add images and Extra content:** Insert Image Nodes directly into the flowchart or use Extra for complementary notes and images.
+6. **Organize and customize:** Use multiple selection, change box types, customize colors, add hints, and save frequently used structures as templates.
+7. **Configure Focus Flow (optional):** Select a branch using Shift + Click or Shift + Drag and activate Focus.
+8. **Save and generate cards:** Use Save to Card or Save and Generate Cards.
 
-- All diagram data is stored locally.
-- No data is transmitted to external servers.
-- Flowchart information is stored as JSON inside Anki notes.
-- Images are stored in Anki's media folder.
-- Images are automatically referenced for compatibility with Anki exports and shared decks.
+Your cards are now ready for review!
 
----
-
-## ⌨️ Keyboard Shortcuts
+## KEYBOARD SHORTCUTS
 
 | Shortcut | Action |
 |---|---|
 | `Ctrl + A` | Add Step / Box |
 | `Ctrl + B` | Add Decision |
-| `Ctrl + C` | Add Information |
-| `Ctrl + Shift + E` | Edit selected element |
+| `Ctrl + C` | Add Information element |
+| `Ctrl + Shift + E` | Edit selected element text |
 | `Ctrl + Shift + X` | Open Extra |
 | `Ctrl + L` | Toggle Link Mode |
-| `Ctrl + Shift + C` | Increment and apply Cloze |
-| `Ctrl + Shift + Alt + C` | Apply current Cloze |
+| `Ctrl + Shift + C` | Increment and apply Cloze number |
+| `Ctrl + Shift + Alt + C` | Apply current Cloze number |
 | `Ctrl + Shift + F` | Activate Focus Flow |
-| `Ctrl + S` | Save to Anki note |
+| `Ctrl + S` | Save flowchart to Anki note |
 | `Ctrl + Z` | Undo |
 | `Ctrl + Y` / `Ctrl + Shift + Z` | Redo |
 | `Ctrl + +` / `Ctrl + -` | Zoom in / out |
-| `Ctrl + 0` | Reset zoom |
-| `Ctrl + 9` | Fit flowchart |
+| `Ctrl + 0` | Reset zoom to 100% |
+| `Ctrl + 9` | Fit entire flowchart |
 | `Ctrl + Mouse Wheel` | Zoom around cursor |
 | `Delete` | Delete selected element or arrow |
-| `Ctrl + Shift + Delete` | Clear flowchart |
-| `Enter / F2` | Edit arrow label |
+| `Ctrl + Shift + Delete` | Clear entire flowchart |
+| `Enter / F2` | Edit selected arrow label |
 | `Escape` | Cancel Link Mode |
 
 **Text formatting:** `Ctrl + B` Bold · `Ctrl + I` Italic · `Ctrl + U` Underline.
 
 **Additional interactions:**
-- Double-click an element to edit its text.
-- Double-click an arrow to edit its label.
+
+- Double-click an element to edit its text or an arrow to edit its label.
 - Drag elements to reposition them.
+- Drag the empty background to pan across the workspace.
 - Drag blue connection points to connect elements.
-- Use Shift + Click or Shift + Drag for multiple selection.
-- Use Ctrl + V to paste images.
+- Use Shift + Click or Shift + Drag to select multiple boxes.
+- Use Ctrl + V to paste images into the editor or Extra.
 
 On macOS, use Command (⌘) instead of Ctrl for compatible shortcuts.
 
----
+## WHO IS MEDFLOW FOR?
 
-## 🚀 Installation
+MEDFlow is designed for medical students, nursing students, healthcare professionals, and anyone who enjoys visual learning and wants to organize complex information using flowcharts.
 
-1. Download MEDFlow from the repository or its AnkiWeb add-on page.
-2. Install the add-on in Anki.
-3. Restart Anki.
-4. The **MedFlow** note type will be created automatically.
-5. Create a new note using this type.
-6. Click the **Alg** button to open the editor.
+It is particularly useful for:
 
----
+- Diagnostic algorithms and differential diagnoses.
+- Therapeutic protocols and clinical guidelines.
+- Pathophysiology and disease progression.
+- Emergency medicine algorithms.
+- Clinical decision-making.
+- Anatomy, histology, pathology, and radiology.
+- Any subject that benefits from visual organization.
 
-## ⚙️ Compatibility
+You do not need to be a healthcare student or professional to use MEDFlow. Anyone who enjoys learning through flowcharts can benefit from it.
+
+## COMPATIBILITY
 
 - Anki Desktop.
 - Windows, macOS, and Linux.
-- PyQt5 and PyQt6.
-- Anki dark mode.
-- Generated cards can be reviewed using compatible Anki clients, including AnkiMobile and AnkiWeb.
+- PyQt5 and PyQt6 support.
+- Anki dark mode compatibility.
+- Generated cards can be reviewed in compatible Anki clients, including AnkiMobile and AnkiWeb.
 
----
+## DEVELOPMENT, AI & ACKNOWLEDGMENTS
 
-## 👥 Who Can Use MEDFlow?
+MEDFlow was independently developed, inspired by the ZeestMedical project. We acknowledge and appreciate the original developers and contributors for their work.
 
-MEDFlow is especially useful for:
+Artificial Intelligence (AI) tools were used throughout development to assist with programming, code generation, debugging, error identification, feature implementation, and user experience improvements.
 
-- Medical students.
-- Nursing students.
-- Healthcare professionals.
-- Students preparing for clinical examinations.
-- Anyone who prefers visual learning and structured information.
-
-Although designed with medical education in mind, MEDFlow can be used by anyone who enjoys creating and studying through flowcharts.
-
----
-
-## 🤝 Acknowledgments & Development
-
-MEDFlow was independently developed and inspired by the **ZeestMedical** project. We acknowledge and appreciate the original developers and contributors for their work.
-
-AI tools were used throughout development to assist with programming, code generation, debugging, error identification, feature implementation, and user experience improvements.
-
-The project's concept, direction, and development were independently conducted, with AI technologies serving as supporting tools.
+The project's concept, direction, and development were independently conducted, with AI technologies serving as supporting tools throughout its creation.
 
 ---
 
