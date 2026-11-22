@@ -28,7 +28,7 @@ Additional features:
 - XMind-inspired keyboard shortcuts.
 
 <p align="center">
-  <img src="assets/Imagen na parte da frente.gif" width="750">
+  <img src="assets/IPF.gif" width="750">
 </p>
 
 <img src="https://raw.githubusercontent.com/davidbsouzaf-cloud/-MEDFlow-Interactive-Medical-Flowcharts-Cloze-Flashcards/6c0c49f803104b610d165d8c676259ffe73aba8a/assets/sele%C3%A7%C3%A3o%20de%20n%C3%B3s%2Bmudan%C3%A7a.gif" width="750">
