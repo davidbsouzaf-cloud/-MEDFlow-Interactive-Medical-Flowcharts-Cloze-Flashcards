@@ -3,23 +3,22 @@
 
 **Transform complex medical concepts into interactive visual learning experiences.**
 
-MEDFlow is an Anki add-on that allows you to create interactive medical flowcharts and transform them into Cloze (fill-in-the-blank) flashcards. It combines visual organization, clinical reasoning, and Anki's spaced repetition system to make studying more active, structured, and engaging.
+MEDFlow is an Anki add-on that allows you to create interactive medical flowcharts and transform them into Cloze flashcards. It combines visual organization, clinical reasoning, and Anki's spaced repetition system to make studying more active, structured, and engaging.
 
-Inspired by the **ZeestMedical** project, MEDFlow was independently developed to provide an integrated visual flowchart editor directly within Anki.
+Inspired by the **ZeestMedical** project, MEDFlow was independently developed to provide an integrated flowchart editor directly within Anki.
 
 ## ✦ KEY FEATURES
 
 ### 1. 🎨 Interactive Flowchart Editor
 
-Build medical algorithms using three types of elements:
+Create medical algorithms using three types of elements:
 
-- **Step / Box:** Represents a step, procedure, clinical finding, or piece of information.
-- **Decision:** Represents a clinical decision or branching point (diamond shape).
-- **Information:** Highlights additional explanations or important details.
+- **Step / Box:** Represents a procedure, clinical finding, stage, or piece of information.
+- **Decision:** Represents a clinical decision or branching point, displayed as a diamond.
+- **Information:** Highlights additional explanations and important details.
 
 Move, resize, and organize elements freely to create simple or complex clinical pathways.
 
-Additional features:
 - Automatic alignment guides.
 - Customizable colors, borders, and box appearance.
 - Multiple selection and simultaneous editing.
@@ -27,18 +26,16 @@ Additional features:
 - Undo and redo functionality.
 - XMind-inspired keyboard shortcuts.
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/davidbsouzaf-cloud/-MEDFlow-Interactive-Medical-Flowcharts-Cloze-Flashcards/ce9adc6c09c61eb91830c8f6bbf19196cbc7f919/assets/IPF.gif" width="750">
-</p>
+<img src="https://raw.githubusercontent.com/davidbsouzaf-cloud/-MEDFlow-Interactive-Medical-Flowcharts-Cloze-Flashcards/6f1c095ad5916a5405146417cff3e264478529c8/assets/como%20criar%20cards.gif" width="750">
 
 <img src="https://raw.githubusercontent.com/davidbsouzaf-cloud/-MEDFlow-Interactive-Medical-Flowcharts-Cloze-Flashcards/6c0c49f803104b610d165d8c676259ffe73aba8a/assets/sele%C3%A7%C3%A3o%20de%20n%C3%B3s%2Bmudan%C3%A7a.gif" width="750">
 
-### 2. 🔗 Connections and Clinical Pathways
+### 2. 🔗 Connections & Clinical Pathways
 
 Build relationships between elements using interactive connections.
 
 - Connect elements using draggable blue connection points.
-- Create parent-to-child relationships.
+- Create relationships between parent and child elements.
 - Reconnect arrows by dragging their endpoints.
 - Add labels such as Yes, No, Positive, Negative, or clinical criteria.
 - Build diagnostic and therapeutic decision trees.
@@ -61,8 +58,7 @@ Unlike images added to the Extra field, Image Nodes become part of the flowchart
 - Add captions to images.
 - Display images directly in generated Anki cards.
 - Captions are automatically hidden when their corresponding images are hidden by Cloze.
-
-Ideal for anatomy, histology, radiology, pathology, dermatology, and other image-dependent medical subjects.
+<img src="https://raw.githubusercontent.com/davidbsouzaf-cloud/-MEDFlow-Interactive-Medical-Flowcharts-Cloze-Flashcards/6c0c49f803104b610d165d8c676259ffe73aba8a/assets/Imagen%20na%20parte%20da%20frente.gif" width="750">
 
 ### 4. 🃏 Cloze Flashcard Generation
 
@@ -81,9 +77,7 @@ Use **Save and Generate Cards** to synchronize your flowchart with Anki and gene
 
 ### 5. 🎯 Focus Flow – Progressive Branch-Based Review
 
-Focus Flow provides a different way to review complex flowcharts by allowing you to study selected branches progressively.
-
-Instead of displaying the entire algorithm at once, you can define a specific pathway and review its elements step by step.
+Focus Flow allows you to study selected branches progressively instead of displaying the entire algorithm at once.
 
 **How it works:**
 - Select boxes belonging to a branch using Shift + Click or Shift + Drag.
@@ -157,16 +151,12 @@ Save time by starting with predefined flowchart structures instead of building e
 
 ### 10. ↩️ Undo & Redo
 
-Edit with confidence using the editor's action history.
-
 - `Ctrl + Z` – Undo.
 - `Ctrl + Y` or `Ctrl + Shift + Z` – Redo.
 - Restore previous box and arrow arrangements.
 - Maintain up to 200 editing states.
 
 ### 11. ✍️ Text Formatting & Visual Customization
-
-Customize content and appearance to improve organization and readability.
 
 - Bold, italic, and underline.
 - Different font sizes and font families.
@@ -197,14 +187,14 @@ Customize content and appearance to improve organization and readability.
 ### 14. 🔒 Privacy & Data Storage
 
 - No data is transmitted to external servers. Everything is stored locally on your computer.
-- Flowcharts are saved as JSON directly inside Anki notes, making backups, exports, and deck sharing easier.
+- Flowcharts are saved as JSON directly inside Anki notes.
 - Images are stored in Anki's media folder and automatically referenced, allowing them to be included in deck exports and shared decks.
 
 ## ✦ HOW TO USE MEDFLOW
 
 **Step 1 – Install and Open the Editor**
 
-Install the add-on and restart Anki. The **MedFlow** note type is created automatically. Create a new note using this type and click the **Alg** button to open the editor.
+Install the add-on and restart Anki. The **MedFlow** note type is created automatically. Create a new note using this type and click **Alg** to open the editor.
 
 **Step 2 – Build Your Flowchart**
 
@@ -216,7 +206,7 @@ Drag a blue connection point from one element to another to create an arrow. Alt
 
 **Step 4 – Assign Cloze Numbers**
 
-Select an element and enter a number in the CLOZE field. Click **Apply** to assign it or **+1** to increment and apply the next number.
+Select an element and enter a number in the CLOZE field. Click **Apply** or **+1** to increment and apply the next number.
 
 **Step 5 – Add Images and Extra Content**
 
@@ -240,9 +230,9 @@ Your cards are now ready for review!
 
 | Shortcut | Action |
 |---|---|
-| `Ctrl + A` | Add a Step / Box |
-| `Ctrl + B` | Add a Decision |
-| `Ctrl + C` | Add an Information element |
+| `Ctrl + A` | Add Step / Box |
+| `Ctrl + B` | Add Decision |
+| `Ctrl + C` | Add Information element |
 | `Ctrl + Shift + E` | Edit selected element text |
 | `Ctrl + Shift + X` | Open Extra |
 | `Ctrl + L` | Toggle Link Mode |
