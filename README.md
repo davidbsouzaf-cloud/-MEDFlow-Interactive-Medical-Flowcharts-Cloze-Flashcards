@@ -1,4 +1,3 @@
-
 # MEDFlow – Interactive Medical Flowcharts & Cloze Flashcards
 
 **Transform complex medical concepts into interactive visual learning experiences.**
@@ -26,9 +25,9 @@ Move, resize, and organize elements freely to create simple or complex clinical 
 - Undo and redo functionality.
 - XMind-inspired keyboard shortcuts.
 
-<img src="https://raw.githubusercontent.com/davidbsouzaf-cloud/-MEDFlow-Interactive-Medical-Flowcharts-Cloze-Flashcards/6f1c095ad5916a5405146417cff3e264478529c8/assets/como%20criar%20cards.gif" width="750">
+![Creating cards](https://raw.githubusercontent.com/davidbsouzaf-cloud/-MEDFlow-Interactive-Medical-Flowcharts-Cloze-Flashcards/6f1c095ad5916a5405146417cff3e264478529c8/assets/como%20criar%20cards.gif)
 
-<img src="https://raw.githubusercontent.com/davidbsouzaf-cloud/-MEDFlow-Interactive-Medical-Flowcharts-Cloze-Flashcards/6c0c49f803104b610d165d8c676259ffe73aba8a/assets/sele%C3%A7%C3%A3o%20de%20n%C3%B3s%2Bmudan%C3%A7a.gif" width="750">
+![Selecting and editing nodes](https://raw.githubusercontent.com/davidbsouzaf-cloud/-MEDFlow-Interactive-Medical-Flowcharts-Cloze-Flashcards/6c0c49f803104b610d165d8c676259ffe73aba8a/assets/sele%C3%A7%C3%A3o%20de%20n%C3%B3s%2Bmudan%C3%A7a.gif)
 
 ### 2. 🔗 Connections & Clinical Pathways
 
@@ -41,9 +40,9 @@ Build relationships between elements using interactive connections.
 - Build diagnostic and therapeutic decision trees.
 - Customize arrow types and branching structures.
 
-<img src="https://raw.githubusercontent.com/davidbsouzaf-cloud/-MEDFlow-Interactive-Medical-Flowcharts-Cloze-Flashcards/6c0c49f803104b610d165d8c676259ffe73aba8a/assets/MUDAR%20SETAS.gif" width="750">
+![Changing arrows](https://raw.githubusercontent.com/davidbsouzaf-cloud/-MEDFlow-Interactive-Medical-Flowcharts-Cloze-Flashcards/6c0c49f803104b610d165d8c676259ffe73aba8a/assets/MUDAR%20SETAS.gif)
 
-<img src="https://raw.githubusercontent.com/davidbsouzaf-cloud/-MEDFlow-Interactive-Medical-Flowcharts-Cloze-Flashcards/6c0c49f803104b610d165d8c676259ffe73aba8a/assets/bifurca%C3%A7%C3%A3o%20de%20setas.gif" width="750">
+![Arrow branching](https://raw.githubusercontent.com/davidbsouzaf-cloud/-MEDFlow-Interactive-Medical-Flowcharts-Cloze-Flashcards/6c0c49f803104b610d165d8c676259ffe73aba8a/assets/bifurca%C3%A7%C3%A3o%20de%20setas.gif)
 
 ### 3. 🖼️ Image Nodes
 
@@ -58,7 +57,8 @@ Unlike images added to the Extra field, Image Nodes become part of the flowchart
 - Add captions to images.
 - Display images directly in generated Anki cards.
 - Captions are automatically hidden when their corresponding images are hidden by Cloze.
-<img src="https://raw.githubusercontent.com/davidbsouzaf-cloud/-MEDFlow-Interactive-Medical-Flowcharts-Cloze-Flashcards/6c0c49f803104b610d165d8c676259ffe73aba8a/assets/Imagen%20na%20parte%20da%20frente.gif" width="750">
+
+![Image node displayed on the card front](https://raw.githubusercontent.com/davidbsouzaf-cloud/-MEDFlow-Interactive-Medical-Flowcharts-Cloze-Flashcards/6c0c49f803104b610d165d8c676259ffe73aba8a/assets/Imagen%20na%20parte%20da%20frente.gif)
 
 ### 4. 🃏 Cloze Flashcard Generation
 
@@ -96,9 +96,9 @@ Focus Flow allows you to study selected branches progressively instead of displa
 
 You can switch between the selected branch and the complete flowchart using the eye and target controls.
 
-<img src="https://raw.githubusercontent.com/davidbsouzaf-cloud/-MEDFlow-Interactive-Medical-Flowcharts-Cloze-Flashcards/6c0c49f803104b610d165d8c676259ffe73aba8a/assets/modo%20focus%20modo%20caixa%20pai.gif" width="750">
+![Focus Flow – parent box mode](https://raw.githubusercontent.com/davidbsouzaf-cloud/-MEDFlow-Interactive-Medical-Flowcharts-Cloze-Flashcards/6c0c49f803104b610d165d8c676259ffe73aba8a/assets/modo%20focus%20modo%20caixa%20pai.gif)
 
-<img src="https://raw.githubusercontent.com/davidbsouzaf-cloud/-MEDFlow-Interactive-Medical-Flowcharts-Cloze-Flashcards/6c0c49f803104b610d165d8c676259ffe73aba8a/assets/focus%20sele%C3%A7%C3%A3o%20unica.gif" width="750">
+![Focus Flow – single selection](https://raw.githubusercontent.com/davidbsouzaf-cloud/-MEDFlow-Interactive-Medical-Flowcharts-Cloze-Flashcards/6c0c49f803104b610d165d8c676259ffe73aba8a/assets/focus%20sele%C3%A7%C3%A3o%20unica.gif)
 
 ### 6. 📱 Improved Mobile Review
 
@@ -123,7 +123,7 @@ Add individual hints to flowchart elements without directly revealing their answ
 
 Ideal for clues, reminders, and information that supports active recall.
 
-<img src="https://raw.githubusercontent.com/davidbsouzaf-cloud/-MEDFlow-Interactive-Medical-Flowcharts-Cloze-Flashcards/6c0c49f803104b610d165d8c676259ffe73aba8a/assets/dicas.gif" width="750">
+![Box hints](https://raw.githubusercontent.com/davidbsouzaf-cloud/-MEDFlow-Interactive-Medical-Flowcharts-Cloze-Flashcards/6c0c49f803104b610d165d8c676259ffe73aba8a/assets/dicas.gif)
 
 ### 8. 📝 Extra – Additional Content
 
@@ -147,7 +147,7 @@ Save time by starting with predefined flowchart structures instead of building e
 - Restore the original templates when necessary.
 - Custom templates are stored separately from editor files, helping preserve them during add-on updates.
 
-<img src="https://raw.githubusercontent.com/davidbsouzaf-cloud/-MEDFlow-Interactive-Medical-Flowcharts-Cloze-Flashcards/6c0c49f803104b610d165d8c676259ffe73aba8a/assets/criar%20templates.gif" width="750">
+![Creating templates](https://raw.githubusercontent.com/davidbsouzaf-cloud/-MEDFlow-Interactive-Medical-Flowcharts-Cloze-Flashcards/6c0c49f803104b610d165d8c676259ffe73aba8a/assets/criar%20templates.gif)
 
 ### 10. ↩️ Undo & Redo
 
